@@ -66,7 +66,7 @@ After getting the sample and its feature, start acquiring lyrics for LLM support
     ```shell
     python sep.py --audio_dir "30s sample folder path" --vocal_dir "vocal save path"
     ```
-  * Lyrics transcript
+  * Lyrics transcribe
     ```shell
     python transcript.py --vocal_dir "separated vocal folder path" --lyric_dir "lyrics save path"
     ```
