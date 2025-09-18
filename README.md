@@ -6,7 +6,7 @@
   
 This project focuses on music emotion recognition through valence–arousal (VA) regression. We explore different approaches, starting from audio feature–based baselines using BEATs embeddings, and extend the framework with LLM support by leveraging lyric transcription. Our experiments highlight the limitations of existing open-source datasets and demonstrate the benefits of our Mood-series dataset, which provides more reliable valence annotations and results in more consistent VA distributions.
 
-- Please see the slide for more descriptions and demo: [My Google Slide](https://docs.google.com/presentation/d/1O6-D0DZGffdyYIPhNtaUbJNti8UpV-1HFuG82ZAVm_c/edit?usp=sharing)
+- Please see the slide for more descriptions and demo: [Google Slide](https://docs.google.com/presentation/d/1O6-D0DZGffdyYIPhNtaUbJNti8UpV-1HFuG82ZAVm_c/edit?usp=sharing)
 
 ## Quick Start Guide
 ### Installation
@@ -62,11 +62,11 @@ cd dataset/preprocess
 python testdata_preprocess.py --testpath "your testdata folder" --sample_path "30s sample save path" --feature_path "feature save path"
 ```
 After getting the sample and its feature, start acquiring lyrics for LLM support.  
-  * 1.Vocal part separation
+  * Vocal part separation
     ```shell
     python sep.py --audio_dir "30s sample folder path" --vocal_dir "vocal save path"
     ```
-  * 2.Lyrics transcript
+  * Lyrics transcript
     ```shell
     python transcript.py --vocal_dir "separated vocal folder path" --lyric_dir "lyrics save path"
     ```
