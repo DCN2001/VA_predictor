@@ -1,0 +1,11 @@
+torch
+torchinfo
+torchaudio
+torchmetrics
+numpy
+librosa
+tqdm
+pandas
+scipy
+matplotlib
+openai

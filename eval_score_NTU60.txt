@@ -1,0 +1,5 @@
+NTU60:
+    M only:     R² (Valence): 0.1705  R² (Arousal): 0.6391
+    DEP only:   R² (Valence): -0.1274 R² (Arousal): 0.6604
+    M+DEP:      R² (Valence): 0.1573  R² (Arousal): 0.6166
+    Music2Emo:  R² (Valence): -0.4381 R² (Arousal): 0.5105
