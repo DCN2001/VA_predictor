@@ -20,11 +20,11 @@ pip install -r requirements.txt
 * Our code is built on pytorch version 2.4.1 (torch==2.4.1 in the requirements.txt). But you might need to choose the correct version of `torch` based on your CUDA version
 
 ### Training
-#### **Preprocess**
+#### 1. Preprocess
 ```shell
 cd dataset/preprocess
 ```
-I. Feature extraction:  
+**Feature extraction:**  
 Extract the feature of three public datasets: [DEAM dataset](https://www.kaggle.com/datasets/imsparsh/deam-mediaeval-dataset-emotional-analysis-in-music), [Emomusic dataset](https://cvml.unige.ch/databases/emoMusic/), [PMemo dataset](https://github.com/HuiZhangDB/PMEmo?tab=readme-ov-file), check out their website for downloading.
 ```shell
 #For DEAM dataset
@@ -41,7 +41,7 @@ python AMG1838_preprocess.py --datapath "your_data_path" --destpath "your_destin
 #For CH818 dataset
 python CH818_preprocess.py --datapath "your_data_path" --destpath "your_destination_path"
 ```
-#### **Start training**
+#### 2. Begin training
 After feature extraction, we can start training our Valence-Arousal regressive model.
 ```shell
 cd ../..
